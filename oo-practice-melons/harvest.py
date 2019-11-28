@@ -34,6 +34,7 @@ def make_melon_types():
 
     all_melon_types = []
 
+    #me calling the initializer, muskmelon is the object 
     muskmelon = MelonType('musk', 1998, 'green', True, True, 'Muskmelon')
     muskmelon.add_pairing('mint')
     all_melon_types.append(muskmelon)
